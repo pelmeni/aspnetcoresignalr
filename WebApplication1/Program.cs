@@ -1,0 +1,33 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
+
+namespace WebApplication1
+{
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateWebHostBuilder(args).Build().Run();
+        }
+
+        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                
+                .UseKestrel(options =>
+                    {                    
+                        options.Listen(IPAddress.Any, 50003);
+                        options.Limits.MaxRequestBodySize = null;
+                    })
+        
+                //.UseSetting("https_port", "8080")
+                .UseStartup<Startup>();
+    }
+}

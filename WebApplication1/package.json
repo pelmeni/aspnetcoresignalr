@@ -1,0 +1,7 @@
+{
+  "name": "WebApplication1",
+  "version": "1.0.0",
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.0"
+  }
+}

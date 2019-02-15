@@ -1,0 +1,188 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@aspnet/signalr-client' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @aspnet/signalr-client
+8 silly fetchNamedPackageData @aspnet/signalr-client
+9 silly mapToRegistry name @aspnet/signalr-client
+10 silly mapToRegistry scope (from package name) @aspnet
+11 verbose mapToRegistry no registry URL found in name for scope @aspnet
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/@aspnet%2fsignalr-client
+15 verbose request uri https://registry.npmjs.org/@aspnet%2fsignalr-client
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 4:13:48 PM
+18 verbose request id 3c6e408d92410858
+19 verbose etag W/"72a17672c2fb4ef3d7265beb15450136"
+20 verbose lastModified Wed, 18 Apr 2018 17:39:30 GMT
+21 http request GET https://registry.npmjs.org/@aspnet%2fsignalr-client
+22 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+23 info attempt registry request try #2 at 4:13:58 PM
+24 verbose etag W/"72a17672c2fb4ef3d7265beb15450136"
+25 verbose lastModified Wed, 18 Apr 2018 17:39:30 GMT
+26 http request GET https://registry.npmjs.org/@aspnet%2fsignalr-client
+27 info retry will retry, error on last attempt: Error: unable to get local issuer certificate
+28 info attempt registry request try #3 at 4:14:58 PM
+29 verbose etag W/"72a17672c2fb4ef3d7265beb15450136"
+30 verbose lastModified Wed, 18 Apr 2018 17:39:30 GMT
+31 http request GET https://registry.npmjs.org/@aspnet%2fsignalr-client
+32 silly get cb [ 304, undefined ]
+33 verbose etag https://registry.npmjs.org/@aspnet%2fsignalr-client from cache
+34 verbose get saving @aspnet/signalr-client to /home/pichugin/.npm/registry.npmjs.org/_40aspnet_252fsignalr-client/.cache.json
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule @aspnet/signalr-client@1.0.0-alpha2-update1 checking installable status
+48 silly cache add args [ '@aspnet/signalr-client', null ]
+49 verbose cache add spec @aspnet/signalr-client
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: '@aspnet/signalr-client',
+50 silly cache add   scope: '@aspnet',
+50 silly cache add   name: '@aspnet/signalr-client',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed @aspnet/signalr-client@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for @aspnet/signalr-client
+53 info addNameTag [ '@aspnet/signalr-client', 'latest' ]
+54 silly mapToRegistry name @aspnet/signalr-client
+55 silly mapToRegistry scope (from package name) @aspnet
+56 verbose mapToRegistry no registry URL found in name for scope @aspnet
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/@aspnet%2fsignalr-client
+60 verbose addNameTag registry:https://registry.npmjs.org/@aspnet%2fsignalr-client not in flight; fetching
+61 verbose get https://registry.npmjs.org/@aspnet%2fsignalr-client not expired, no request
+62 silly addNameTag next cb for @aspnet/signalr-client with tag latest
+63 silly addNamed @aspnet/signalr-client@1.0.0-alpha2-update1
+64 verbose addNamed "1.0.0-alpha2-update1" is a plain semver version for @aspnet/signalr-client
+65 warn deprecated @aspnet/signalr-client@1.0.0-alpha2-update1: This package has been deprecated, please use @aspnet/signalr instead
+66 silly cache afterAdd @aspnet/signalr-client@1.0.0-alpha2-update1
+67 verbose afterAdd /home/pichugin/.npm/@aspnet/signalr-client/1.0.0-alpha2-update1/package/package.json not in flight; writing
+68 verbose afterAdd /home/pichugin/.npm/@aspnet/signalr-client/1.0.0-alpha2-update1/package/package.json written
+69 silly loadAllDepsIntoIdealTree Finishing
+70 silly idealTree:prePrune WebApplication1
+70 silly idealTree:prePrune └── @aspnet/signalr-client@1.0.0-alpha2-update1
+71 silly loadIdealTree Finishing
+72 silly currentTree WebApplication1
+73 silly idealTree WebApplication1
+73 silly idealTree └── @aspnet/signalr-client@1.0.0-alpha2-update1
+74 silly generateActionsToTake Starting
+75 silly install generateActionsToTake
+76 silly generateActionsToTake Finishing
+77 silly diffTrees action count 1
+78 silly diffTrees add @aspnet/signalr-client@1.0.0-alpha2-update1
+79 silly decomposeActions action count 8
+80 silly decomposeActions fetch @aspnet/signalr-client@1.0.0-alpha2-update1
+81 silly decomposeActions extract @aspnet/signalr-client@1.0.0-alpha2-update1
+82 silly decomposeActions test @aspnet/signalr-client@1.0.0-alpha2-update1
+83 silly decomposeActions preinstall @aspnet/signalr-client@1.0.0-alpha2-update1
+84 silly decomposeActions build @aspnet/signalr-client@1.0.0-alpha2-update1
+85 silly decomposeActions install @aspnet/signalr-client@1.0.0-alpha2-update1
+86 silly decomposeActions postinstall @aspnet/signalr-client@1.0.0-alpha2-update1
+87 silly decomposeActions finalize @aspnet/signalr-client@1.0.0-alpha2-update1
+88 silly executeActions Starting
+89 silly install executeActions
+90 silly doSerial global-install 0
+91 silly doParallel fetch 1
+92 verbose lock using /home/pichugin/.npm/_locks/staging-efa2fc27a570d146.lock for /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging
+93 silly doParallel extract 1
+94 silly extract @aspnet/signalr-client@1.0.0-alpha2-update1
+95 verbose unbuild node_modules/.staging/@aspnet/signalr-client-40fc871c
+96 silly gentlyRm /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c is being purged from base /home/pichugin/RiderProjects/WebApplication1
+97 verbose gentlyRm don't care about contents; nuking /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c
+98 verbose tar unpack /home/pichugin/.npm/@aspnet/signalr-client/1.0.0-alpha2-update1/package.tgz
+99 verbose tar unpacking to /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c
+100 silly gentlyRm /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c is being purged
+101 verbose gentlyRm don't care about contents; nuking /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c
+102 silly gunzTarPerm modes [ '755', '644' ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+105 silly gunzTarPerm extractEntry README.md
+106 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+107 silly gentlyRm /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c/node_modules is being purged
+108 verbose gentlyRm don't care about contents; nuking /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c/node_modules
+109 silly doParallel preinstall 1
+110 silly preinstall @aspnet/signalr-client@1.0.0-alpha2-update1 /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c
+111 info lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~preinstall: @aspnet/signalr-client@1.0.0-alpha2-update1
+112 silly lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~preinstall: no script for preinstall, continuing
+113 silly doReverseSerial remove 0
+114 silly doSerial move 0
+115 silly doSerial finalize 1
+116 silly finalize /home/pichugin/RiderProjects/WebApplication1/node_modules/@aspnet/signalr-client
+117 silly doSerial build 1
+118 silly build @aspnet/signalr-client@1.0.0-alpha2-update1
+119 info linkStuff @aspnet/signalr-client@1.0.0-alpha2-update1
+120 silly linkStuff @aspnet/signalr-client@1.0.0-alpha2-update1 has /home/pichugin/RiderProjects/WebApplication1/node_modules as its parent node_modules
+121 verbose linkBins @aspnet/signalr-client@1.0.0-alpha2-update1
+122 verbose linkMans @aspnet/signalr-client@1.0.0-alpha2-update1
+123 silly doSerial global-link 0
+124 silly doParallel update-linked 0
+125 silly doSerial install 1
+126 silly install @aspnet/signalr-client@1.0.0-alpha2-update1 /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging/@aspnet/signalr-client-40fc871c
+127 info lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: @aspnet/signalr-client@1.0.0-alpha2-update1
+128 verbose lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: unsafe-perm in lifecycle false
+129 verbose lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: PATH: /usr/share/npm/bin/node-gyp-bin:/home/pichugin/RiderProjects/WebApplication1/node_modules/@aspnet/signalr-client/node_modules/.bin:/home/pichugin/RiderProjects/WebApplication1/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+130 verbose lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: CWD: /home/pichugin/RiderProjects/WebApplication1/node_modules/@aspnet/signalr-client
+131 silly lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: Args: [ '-c',
+131 silly lifecycle   'echo "This package has been deprecated. Use \'@aspnet/signalr\' instead." && exit 1' ]
+132 silly lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: Returned: code: 1  signal: null
+133 info lifecycle @aspnet/signalr-client@1.0.0-alpha2-update1~install: Failed to exec install script
+134 verbose unlock done using /home/pichugin/.npm/_locks/staging-efa2fc27a570d146.lock for /home/pichugin/RiderProjects/WebApplication1/node_modules/.staging
+135 silly rollbackFailedOptional Starting
+136 silly rollbackFailedOptional Finishing
+137 silly runTopLevelLifecycles Starting
+138 silly runTopLevelLifecycles Finishing
+139 silly install printInstalled
+140 warn enoent ENOENT: no such file or directory, open '/home/pichugin/RiderProjects/WebApplication1/package.json'
+141 warn WebApplication1 No description
+142 warn WebApplication1 No repository field.
+143 warn WebApplication1 No README data
+144 warn WebApplication1 No license field.
+145 verbose stack Error: @aspnet/signalr-client@1.0.0-alpha2-update1 install: `echo "This package has been deprecated. Use '@aspnet/signalr' instead." && exit 1`
+145 verbose stack Exit status 1
+145 verbose stack     at EventEmitter.<anonymous> (/usr/share/npm/lib/utils/lifecycle.js:232:16)
+145 verbose stack     at emitTwo (events.js:126:13)
+145 verbose stack     at EventEmitter.emit (events.js:214:7)
+145 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:24:14)
+145 verbose stack     at emitTwo (events.js:126:13)
+145 verbose stack     at ChildProcess.emit (events.js:214:7)
+145 verbose stack     at maybeClose (internal/child_process.js:925:16)
+145 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+146 verbose pkgid @aspnet/signalr-client@1.0.0-alpha2-update1
+147 verbose cwd /home/pichugin/RiderProjects/WebApplication1
+148 error Linux 4.18.0-15-generic
+149 error argv "/usr/bin/node" "/usr/bin/npm" "install" "@aspnet/signalr-client"
+150 error node v8.10.0
+151 error npm  v3.5.2
+152 error code ELIFECYCLE
+153 error @aspnet/signalr-client@1.0.0-alpha2-update1 install: `echo "This package has been deprecated. Use '@aspnet/signalr' instead." && exit 1`
+153 error Exit status 1
+154 error Failed at the @aspnet/signalr-client@1.0.0-alpha2-update1 install script 'echo "This package has been deprecated. Use '@aspnet/signalr' instead." && exit 1'.
+154 error Make sure you have the latest version of node.js and npm installed.
+154 error If you do, this is most likely a problem with the @aspnet/signalr-client package,
+154 error not with npm itself.
+154 error Tell the author that this fails on your system:
+154 error     echo "This package has been deprecated. Use '@aspnet/signalr' instead." && exit 1
+154 error You can get information on how to open an issue for this project with:
+154 error     npm bugs @aspnet/signalr-client
+154 error Or if that isn't available, you can get their info via:
+154 error     npm owner ls @aspnet/signalr-client
+154 error There is likely additional logging output above.
+155 verbose exit [ 1, true ]
